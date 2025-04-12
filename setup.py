@@ -53,6 +53,6 @@ setup(name='ConfTools',
           'PyContracts>=1.2',
           'six',
       ],
-      tests_require=['nose'],
+      tests_require=['pytest>=7.0.0'],
       entry_points={},
       )
